@@ -1,5 +1,6 @@
 import React from 'react';
-import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+import { FiFacebook, FiTwitter, FiInstagram} from 'react-icons/fi';
+import { FaBeer, FaWhatsapp } from "react-icons/fa";
 
 import { FooterOverlay, Newsletter } from '../../components';
 import { images } from '../../constants';
@@ -12,7 +13,7 @@ const Footer = () => (
 
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
-        <h1 className="app__footer-headtext">Contacta me</h1>
+        <h1 className="app__footer-headtext">Contactame</h1>
         <p className="p__opensans">Santiago, Chile</p>
         <p className="p__opensans">+5695694542</p>
         <p className="p__opensans">+5695454255</p>
@@ -26,9 +27,19 @@ const Footer = () => (
           <FiFacebook />
           <FiTwitter />
           <FiInstagram />
+
+          <a href="https://api.whatsapp.com/send?phone=56961335753&text=Hola%2C%20soy%20Anita%20Manualidades%2C%20gracias%20por%20contactarte%20conmigo%20%20%20.%20%20Como%20puedo%20ayudarte?%20%20%20%3A%20" target="_bKJk" rel="noreferrer"
+                            class='social-icon-link youtube'
+                              aria-label='Twitter'
+                              >
+                              <i class='fab fa-whatsapp' />
+                              {}
+       <FaWhatsapp />{}
+                            </a>
+
+
         </div>
       </div>
-
       <div className="app__footer-links_work">
         <h1 className="app__footer-headtext">Horario de Trabajo y Envios</h1>
         <p className="p__opensans">Lunes a Viernes:</p>
@@ -39,7 +50,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">2023 Anita Manualidads. Todos los Derechos Reservados.</p>
+      <p className="p__opensans">2023 Anita Manualidades. Todos los Derechos Reservados.</p>
     </div>
 
   </div>

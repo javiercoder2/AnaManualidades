@@ -22,8 +22,8 @@ const Gallery = () => {
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">
         <SubHeading title="Instagram"/>
-        <h1 className="headtext__cormorant">Galeria de Fotos</h1>
-        <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Aqui puedes revisar fotos de los articulos que he realizado</p>
+        <h1 id="Parrafo" className="headtext__cormorant">Galeria de Fotos</h1>
+        <p id="Parrafo" className="p__opensans" style={{ color: '#FFFF', marginTop: '2rem' }}>Aqui puedes revisar fotos de los articulos que he realizado</p>
         <button type="button" className="custom__button">Ver Mas</button>
       </div>
       <div className="app__gallery-images">

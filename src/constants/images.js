@@ -17,7 +17,7 @@ import award01 from '../assets/award01.png';
 import award02 from '../assets/award02.png';
 import award03 from '../assets/award03.png';
 import award04 from '../assets/award04.png';
-import sign from '../assets/sign.png';
+import signAna from '../assets/AnaFirm.png';
 import quote from '../assets/quote.png';
 import Anita from '../assets/Anita.png';
 
@@ -41,7 +41,7 @@ export default {
   award02,
   award03,
   award04,
-  sign,
+  signAna,
   quote,
   Anita,
 };

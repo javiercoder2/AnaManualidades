@@ -24,7 +24,7 @@ const Creator = () => (
       <div className="app__chef-sign">
         <p>Ana Roman</p>
         <p className="p__opensans">Fundadora y Creadora</p>
-        <img src={images.sign} alt="sign_image" />
+        <img id="sign" src={images.signAna} alt="sign_image" />
       </div>
     </div>
   </div>

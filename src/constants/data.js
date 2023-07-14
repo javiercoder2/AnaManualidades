@@ -3,27 +3,27 @@ import images from './images';
 const wines = [
   {
     title: '1',
-    price: '$1000',
+    price: '$3000',
+    tags: '10x10 cm | colores',
+  },
+  {
+    title: '2',
+    price: '$3000',
+    tags: '10x10 cm | colores',
+  },
+  {
+    title: '3',
+    price: '$3000',
     tags: '10x10 cm | colores',
   },
   {
     title: '1',
-    price: '$1000',
+    price: '$3000',
     tags: '10x10 cm | colores',
   },
   {
     title: '1',
-    price: '$1000',
-    tags: '10x10 cm | colores',
-  },
-  {
-    title: '1',
-    price: '$1000',
-    tags: '10x10 cm | colores',
-  },
-  {
-    title: '1',
-    price: '$1000',
+    price: '$3000',
     tags: '10x10 cm | colores',
   },
 ];
@@ -31,27 +31,27 @@ const wines = [
 const precios = [
   {
     title: 'Lana gruesa',
-    price: '$1000',
+    price: '$3000',
     tags: '10 metros | colores: | ',
   },
   {
     title: 'Lana gruesa',
-    price: '$1000',
+    price: '$3000',
     tags: '10 metros | colores: | ',
   },
   {
     title: 'Lana gruesa',
-    price: '$1000',
+    price: '$3000',
     tags: '10 metros | colores: | ',
   },
   {
     title: 'Lana gruesa',
-    price: '$1000',
+    price: '$3000',
     tags: '10 metros | colores: | ',
   },
   {
     title: 'Lana gruesa',
-    price: '$1000',
+    price: '$3000',
     tags: '10 metros | colores: | ',
   },
 ];
